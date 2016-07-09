@@ -1,0 +1,17 @@
+<apex:page sidebar="false"> 
+
+    <h1>Hello World</h1> 
+    
+    <apex:pageBlock title="A Block Title">
+        <apex:pageBlockSection title="pageBlockSection Title" columns="3">
+            <apex:outputLabel >label 1</apex:outputLabel>
+			<apex:outputLabel >label 2</apex:outputLabel>
+            <apex:outputLabel >label 3</apex:outputLabel>
+        </apex:pageBlockSection>
+
+        <apex:pageBlockSection title="another pageBlockSection Title">
+            This is another section. Just one giant section.
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+</apex:page>

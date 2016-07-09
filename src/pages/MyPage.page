@@ -1,0 +1,15 @@
+<apex:page showHeader="true" sidebar="true" controller="MyController">
+
+    <apex:form >
+        <apex:outputPanel layout="Block" id="myPanel">
+            <apex:inputField value="{!wrapper.myObject.Field1__c}">
+                <apex:actionSupport event="onchange" action="{!refreshMyObject}" reRender="myPanel"/>
+            </apex:inputField>
+            <apex:outputPanel layout="none" rendered="{!wrapper.myObject.Field1__c == 'Yes'}">
+                <apex:inputField value="{!wrapper.myObject.Field2__c}"/>
+            </apex:outputPanel>
+        </apex:outputPanel>
+		<apex:inputHidden value="{!wrapper.myObject.Field2__c}" id="theHiddenInput"/>
+		<apex:inputHidden value="{!wrapper.myObject.FIeld3__c}" id="Field3__c"/>
+    </apex:form>
+</apex:page>

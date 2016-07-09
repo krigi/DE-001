@@ -1,0 +1,12 @@
+<apex:page standardController="Account">
+	<apex:form >
+    <apex:pageBlockSection >
+   <apex:pageBlockSectionItem >
+   <apex:outputLabel >Keyword(Please Enter a Order Number)</apex:outputLabel>
+   <apex:panelGroup >
+   <apex:commandButton value="Get Result"/>
+   </apex:panelGroup>
+   </apex:pageBlockSectionItem>
+   </apex:pageBlockSection>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"AdGroup",
+				"AdGroups__r"
+			],
+			[
+				"Ad",
+				"AdOps_Campaign__c"
+			],
+			[
+				"reque",
+				"PUBLIC requestURI"
+			],
+			[
+				"OracleFusion",
+				"OracleFusionIntegration__c"
+			],
+			[
+				"acc",
+				"acc_CustomerAccountId"
+			],
+			[
+				"soap",
+				"GLOBAL soapPayload_addSite_beta(String org_PartyId, String org_PartySiteId, String acc_CustomerAccountId, String acc_OrigSystemReference, String acc_AccountNumber, String acc_AccountName, String siteName) 	String"
+			],
+			[
+				"soapPay",
+				"GLOBAL soapPayload_customerAccountService_createAccount(String org_PartyId, Account regionalAgency) 	String"
+			],
+			[
+				"fusion",
+				"fusionUtil"
+			],
+			[
+				"EC_",
+				"EC_AdGroupCtrl__c"
+			],
+			[
+				"Place",
+				"Placement_End_Date__c"
+			],
+			[
+				"end",
+				"End_Date__c"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/krigi/Documents/dev-mm/DE.krigi.eightcloud"
+	],
+	"file_history":
+	[
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/Oracle_SoapPayload.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/CalloutToFusion.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/campaign_adgroups.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/oppty_campaign_adgroup.cls",
+		"/Users/krigi/Desktop/ca.json",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/apex-scripts/execute.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/Oracle_Bulk_SyncSitesc.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/Oracle_Callout.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/Oracle_ParseResponse.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/Oracle_SiteUtil.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes/Oracle_BulkLoad.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/execute.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_Part3.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_Util.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_Callout.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_AccountingApprovalHandler.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_BulkLoad.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/OpportunityTriggerHandler.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/OpportunityTriggerFlowController.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/NewBillingContactExt.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_ParseResponse.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_Part4.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/Oracle_SoapPayload.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/OracleFusion.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/fusionUtil.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/oracleIDs.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/oracleIDs_TEST.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-15.00.45.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-14.42.40.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-14.55.39.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-14.57.12.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-14.59.33.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-14.35.03.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/apex-scripts/log/2015-09-16-14.06.30.log",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/xcOpportunity.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/xcUtil.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/xcJob.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/apexWorkbook.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/CampaignCloneController.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/AutocompleteExt.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/triggers/xcAdGroupTrigger.trigger",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/CampaignTransferController.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/xcAdGroupCreates_Batch.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/pages/xcCampaign.page",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/pages/xcAdGroup.page",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/pages/EC_AdGroupPage.page",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/EC_AdGroupCtrl.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/pages/EC_CampaignPage.page",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/EC_CampaignCtrl.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/pages/Autocomplete.page",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/classes/etcd8_CachedData.cls",
+		"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)/src/triggers/etcd8_setOpptyPricebook.trigger",
+		"/Users/krigi/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/Users/krigi/Library/Caches/TemporaryItems/Outlook Temp/ratecard1 2/build.xml",
+		"/Users/krigi/Library/Caches/TemporaryItems/Outlook Temp/ratecard1/web/index.jsp",
+		"/Users/krigi/Documents/dev/AppExchange (dev1)/src/classes/etcd8_LeadTriggerHandler.cls",
+		"/Users/krigi/Documents/dev/AppExchange (dev1)/src/classes/TestMethodCls3.cls"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/krigi/Documents/dev-mm/xAd Sandbox/src/classes",
+			"/Users/krigi/Documents/dev-mm/xAd Sandbox (xadsb)"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"product",
+			"rep",
+			"isValid",
+			"missingValues",
+			"adgroupIDs",
+			"from oracle_organization",
+			"accountNumber",
+			"cAccId",
+			"accountNumber",
+			"createAccount",
+			"CustomerId__c",
+			"Address1__c",
+			"oracle_org",
+			"oracle_",
+			"customerClass",
+			"customer_class",
+			"addressLine1__c",
+			"description",
+			"report",
+			"customeraccount",
+			"accountsite",
+			"partysite",
+			"createCustomerAccount",
+			"id",
+			"locationService",
+			"Billable_Actions__c",
+			"Impressions__c",
+			"XC3_AdGroup_ID__c",
+			"json",
+			"https://api.",
+			"XC3",
+			"adGrp",
+			"adCamp",
+			"return",
+			"public EC",
+			"adCamp",
+			"controller",
+			"Placement_End_Date__c",
+			"response1",
+			"ui",
+			"Category",
+			"juli"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DE.krigi.eightcloud.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,25 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account">
+    <apex:form >
+        <apex:pageBlock >
+        <apex:outputPanel layout="Block" id="myPanel">
+            <apex:inputField value="{!Account.Name}"/>
+			<apex:inputHidden value="{!Account.FIeld3__c}" id="Field3__c"/>
+        </apex:outputPanel>
+
+		<apex:pageBlockButtons location="bottom">
+        	<apex:commandButton value="Save Changes" action="{!save}" />
+
+            <script type="text/javascript">
+                function handleClick(val){
+                    document.getElementById('Field3__c').value = 'set by button';
+                    return true;
+                }            
+            </script>
+
+            </apex:pageBlockButtons>
+
+        </apex:pageBlock>
+
+    </apex:form>
+
+</apex:page>

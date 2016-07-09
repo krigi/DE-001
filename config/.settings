@@ -1,0 +1,19 @@
+{
+    "username": "krigi.eightcloud@gmail.com", 
+    "environment": "production", 
+    "project_name": "DE.krigi.eightcloud", 
+    "workspace": "/Users/krigi/Documents/dev-mm", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "90DBDXK4X5NJAZH530FRICXL8BBIBMJX", 
+    "metadata_container": "1dc1a000000Qmf8AAC", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}
